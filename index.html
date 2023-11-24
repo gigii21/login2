@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Login</title>
+</head>
+<body>
+    <main id="main">
+        <h1 id="login-header">Login</h1>
+        <h6 id="info">DIGITE SEU LOGIN E SENHA</h6>
+        <div id="error-msg-suporte">
+            <p id="login-error-msg">USUARIO <span id="error-msg-span">OU SENHA INVALIDA</span></p>
+
+        </div>
+        <form id="login-form">
+            <input type="text" name="username" id="usernamefield" class="login-form-field" placeholder="Username">
+            <input type="password" name="password" id="passwordfield" class="login-form-field" placeholder="Password">
+            <input type="submit" value="Login" id="login-form-submit">
+        </form>
+    </main>
+    <script src="./script.js"></script>
+</body>
+</html>
